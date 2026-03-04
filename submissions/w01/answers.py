@@ -13,16 +13,19 @@ from __future__ import annotations
 def q01() -> bool:
     """[T/F] Dalam model probabilistik, output yang sama akan selalu dihasilkan dari input yang
 sama terlepas dari variasi acak."""
+    return False
     raise NotImplementedError
 
 def q02() -> bool:
     """[T/F] Ruang sampel dari sebuah eksperimen acak harus mencakup semua hasil yang
 mungkin terjadi tanpa tumpang tindih."""
+    return True
     raise NotImplementedError
 
 def q03() -> bool:
     """[T/F] Probabilitas empiris mendekati probabilitas teoretis ketika jumlah percobaan
 mendekati tak hingga."""
+    return True
     raise NotImplementedError
 
 def q04() -> str:
@@ -32,6 +35,7 @@ A) Kapasitas total hard disk 1TB.
 B) Jumlah core pada prosesor Intel i7.
 C) Waktu yang dibutuhkan untuk merespons query database.
 D) Jumlah bit dalam satu byte."""
+    return "C"
     raise NotImplementedError
 
 def q05() -> str:
